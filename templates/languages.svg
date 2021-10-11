@@ -73,7 +73,7 @@ div.ellipsis {
   display: flex;
   height: 8px;
   overflow: hidden;
-  background-color: #2E3440;
+  background-color: #81A1C1;
   border-radius: 6px;
   outline: 1px solid transparent;
   margin-bottom: 1em;
