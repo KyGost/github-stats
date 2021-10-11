@@ -9,8 +9,8 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: #4C566A;
-  stroke: #81A1C1;
+  fill: #2E3440;
+  stroke: #2E3440;
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
@@ -73,14 +73,14 @@ div.ellipsis {
   display: flex;
   height: 8px;
   overflow: hidden;
-  background-color: #4C566A;
+  background-color: #2E3440;
   border-radius: 6px;
   outline: 1px solid transparent;
   margin-bottom: 1em;
 }
 
 .progress-item {
-  outline: 2px solid #4C566A;
+  outline: 2px solid #2E3440;
   border-collapse: collapse;
 }
 
