@@ -75,7 +75,7 @@ div.ellipsis {
   overflow: hidden;
   background-color: #81A1C1;
   border-radius: 6px;
-  outline: 2px solid transparent;
+  outline: 1px solid transparent;
   margin-bottom: 1em;
 }
 
