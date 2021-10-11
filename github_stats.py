@@ -131,7 +131,7 @@ class Queries(object):
           totalCount
         }}
         forkCount
-        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+        languages(first: 100, orderBy: {{field: SIZE, direction: DESC}}) {{
           edges {{
             size
             node {{
@@ -167,7 +167,7 @@ class Queries(object):
           totalCount
         }}
         forkCount
-        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+        languages(first: 100, orderBy: {{field: SIZE, direction: DESC}}) {{
           edges {{
             size
             node {{
