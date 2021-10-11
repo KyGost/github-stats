@@ -113,7 +113,7 @@ class Queries(object):
     login,
     name,
     repositories(
-        first: 100,
+        first: 200,
         orderBy: {{
             field: UPDATED_AT,
             direction: DESC
@@ -131,7 +131,7 @@ class Queries(object):
           totalCount
         }}
         forkCount
-        languages(first: 100, orderBy: {{field: SIZE, direction: DESC}}) {{
+        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
           edges {{
             size
             node {{
@@ -143,8 +143,8 @@ class Queries(object):
       }}
     }}
     repositoriesContributedTo(
-        first: 100,
-        includeUserRepositories: false,
+        first: 200,
+        includeUserRepositories: true,
         orderBy: {{
             field: UPDATED_AT,
             direction: DESC
@@ -167,7 +167,7 @@ class Queries(object):
           totalCount
         }}
         forkCount
-        languages(first: 100, orderBy: {{field: SIZE, direction: DESC}}) {{
+        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
           edges {{
             size
             node {{
